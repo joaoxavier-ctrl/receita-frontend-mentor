@@ -1,0 +1,94 @@
+
+
+body{
+    background: rgb(214, 219, 160);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+section{
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+    margin-top: 80px;
+}
+
+section *{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.container *{
+    margin-bottom: 20px;
+}
+
+.container img{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    border-radius: 8px;
+    height: 360px;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.25rem;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-preparo{
+    background: rgb(255, 230, 230);
+    border-radius: 8px;
+}
+
+.container-preparo h2, ul{
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+}
+
+.container-preparo h2{
+    margin-top: 20px;
+}
+
+.container-preparo li span{
+    font-weight: bold;
+}
+
+.ingredientes *{
+    color: rgb(102, 61, 61);
+}
+
+.ingredientes h2{
+    font-weight: bolder;
+}
+
+.container span{
+    max-width: 800px;
+}
+
+.intrucoes{
+    margin-top: 40px;
+}
+
+.intrucoes h2{
+    font-size: 1.875rem;
+}
